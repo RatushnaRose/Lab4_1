@@ -23,3 +23,10 @@ def fibonacci(n):
     for i in range(2, int(n**0.5) + 1):
         if n % i == 0: return False
     return True
+
+def is_palindrome(text):
+                                                                                 
+    clean_text = str(text).lower().replace(" ", "")
+
+                                                                                  
+    return clean_text == clean_text[::-1]
