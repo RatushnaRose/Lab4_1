@@ -18,6 +18,20 @@ def gcd(a, b):
 
 def fibonacci(n):
     if n <= 1: return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+def five(n: int) -> bool:
+    
+    if n <= 0:
+        return False
+        
+  
+    while n % 5 == 0:
+        n //= 5     
+    
+    return n == 1
+
+
     return fibonacci(n-1) + fibonacci(n-2)def is_prime(n):
     if n < 2: return False
     for i in range(2, int(n**0.5) + 1):
