@@ -1,3 +1,4 @@
+print(fibanacci(12))
 
 print(factor(5)) 
 
