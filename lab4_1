@@ -1,0 +1,12 @@
+Script started on Fri Feb 27 17:35:20 2026
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ git remote add origin git@github.com:RatushnaRose/Lab4_1.git
+помилка: внешний репозиторий origin уже существует
+bash-3.2$ git branch -M main
+bash-3.2$ git push -u origin main
+помилка: src refspec main ничему не соответствует
+[31mпомилка: не удалось отправить некоторые ссылки в «github.com:RatushnaRose/Lab4_1.git»
+[mbash-3.2$ 
