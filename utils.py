@@ -7,6 +7,7 @@ def factor(n):
         result *= i
     return result
 
+
 print(factor(5)) 
 
 def gcd(a, b):
@@ -14,3 +15,7 @@ def gcd(a, b):
         a, b = b, a % b
     return abs(a)
 
+
+def fibonacci(n):
+    if n <= 1: return n
+    return fibonacci(n-1) + fibonacci(n-2)
