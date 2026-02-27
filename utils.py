@@ -19,3 +19,16 @@ def gcd(a, b):
 def fibonacci(n):
     if n <= 1: return n
     return fibonacci(n-1) + fibonacci(n-2)
+
+def five(n: int) -> bool:
+    
+    if n <= 0:
+        return False
+        
+  
+    while n % 5 == 0:
+        n //= 5     
+    
+    return n == 1
+
+
