@@ -1,0 +1,3 @@
+
+print(factor(5)) 
+
